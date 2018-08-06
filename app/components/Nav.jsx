@@ -7,14 +7,14 @@ var Nav = React.createClass({
             <div className="top-bar">
                 <div className="top-bar-left">
 					<ul className="menu">
-						<li>
-							<IndexLink to="/" className="menu-text" activeClassName="active" activeStyle={{fontWeight: "bold"}}>React Timer App </IndexLink>
+						<li className="menu-text">
+							React Timer App
 						</li>
 						<li>
-							<Link to="/timer" activeClassName="active-link" activeStyle={{fontWeight: "bold"}}>Timer</Link>
+							<IndexLink to="/" activeClassName="active">Timer</IndexLink>
 						</li>
 						<li>
-							<Link to="/countdown" activeClassName="active-link" activeStyle={{fontWeight: "bold"}}>Countdown</Link>
+							<Link to="/countdown" activeClassName="active-link">Countdown</Link>
 						</li>
 					</ul>
 				</div>

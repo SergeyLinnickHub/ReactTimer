@@ -15,9 +15,8 @@ require('style!css!sass!applicationStyles')
 ReactDOM.render(
 	<Router history={hashHistory}>
 		<Route path="/" component={Main}>
-			<Route path='timer' component={Timer}/>
 			<Route path='countdown' component={CountDown}/>
-			{/* <IndexRoute component={Weather}/> */}
+			<IndexRoute component={Timer}/>
 		</Route>
 	</Router>,
 	document.getElementById('app')
