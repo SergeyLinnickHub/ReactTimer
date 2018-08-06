@@ -6,9 +6,9 @@
     .menu-text{
         color: $white;
     }
-    .menu>li>a{
+    .top-bar-right .menu>li>a{
         display: inline-block;
-        padding: 0; 
+        padding: 0 0 0 5px; 
     }
     .active-link{
         font-weight: bold;
