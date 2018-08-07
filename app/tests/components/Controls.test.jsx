@@ -27,5 +27,4 @@ describe('Controls', () => {
 			expect ($pauseButton.length).toBe(1);
 		});
 	});
-	
 });
